@@ -1,0 +1,908 @@
+/*-----------------------My style-------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+.btn-success {
+    /* background-image: -webkit-linear-gradient(top,#5cb85c 0,#419641 100%); */
+    background-image: -o-linear-gradient(top,#5cb85c 0,#419641 100%);
+    /* background-image: -webkit-gradient(linear,left top,left bottom,from(#5cb85c),to(#419641)); */
+    background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+  }
+
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.btn-link {
+  color:black;
+}
+
+.btn-link: hover {
+  text-decoration: none;
+}
+
+body {
+background-color: #f3f3f3;
+}  
+
+hr {
+	border-top: 1px solid #d3d2d2;
+	border-bottom: 1px solid #ffffff;
+	margin: auto 7px;
+}
+
+.logopogo {
+  padding-left:30px; 
+  margin-top: 5px; 
+  width: 130px;  
+  position: absolute;
+}
+
+.nav{
+	padding-bottom: 15px;
+}
+
+	
+.block1 {
+  border: 1px solid #e5e5e5; 
+  background-color:white;
+}
+
+.navmain {
+	background-color: white;
+}
+
+/*===========Text property Start=============*/
+.detail1 {
+  padding-left: 28px;
+  font-family:  "Crimson Text",serif;
+  font-size: 19px;
+}
+
+.detail2 {
+  padding-left: 28px;
+  color:#999;
+  font-size: 14px;
+  font-family: calibri;
+}
+
+/*--------------Banner image N Text---------------*/
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.banner1 {
+  margin-top: 0px;
+  padding-top: 35px;
+  background-image:url("/images/frontend_images/header_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.welcome{
+  font-weight: bold; 
+  font-size:76px; 
+  /*font-family: georgia; */
+  text-align: center; 
+  color:white;
+}
+
+.btn-primary-outline {
+
+  font-weight: bold;
+  font-family: roboto;
+  font-size:25px;	
+
+  margin-bottom:30px;
+	background-color: transparent;
+	border-color:white;
+	color:white;
+}
+
+.button10 {
+	/*margin-bottom: 500px;*/
+	padding-bottom:45px;
+	text-align: center;
+
+}
+    
+/*=============Div & IMG Start============*/
+
+.whitediv {
+  background-color: white;
+  margin-bottom: 28px;
+  overflow: hidden;  
+
+}
+/*-------------------------------test*/
+/*.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+*/
+/*img:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}*/
+
+/*center > img {
+
+  width: 10%;
+  height: 10%
+  left: 0;
+}*/
+/*.cond:hover . {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}*/
+
+.title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.cond:hover .title {
+  top: 90px;
+}
+
+.button {
+  position: absolute;
+  width: 100%;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.cond:hover .button {
+  opacity: 1;
+}
+
+
+/*.cond .button:hover  {
+  opacity: 1*/
+
+
+.cond .button a:hover {
+  color:white;
+  /*font-size: 15px;*/
+  border-color:; 
+  background-color: rgba(0, 84, 118, 0.36);
+  transition: all 0.3s ease-in-out;
+}
+
+/*---------------------------------test*/
+
+center > img  {
+
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-bottom: 14px;
+    width:96%; 
+    height:auto;
+   
+    cursor:pointer;
+  
+
+/*    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;*/
+}
+
+
+center > a > img  {
+
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-bottom: 14px;
+    width:96%; 
+    height: auto;
+    
+    cursor:pointer;
+/*    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;*/
+}
+
+.whitediv .circlee {
+    font-size: 150%; 
+    position: absolute;  
+    top: 7%;
+    left: 63%; 
+    color: #ccc;
+    display: none;
+    border-radius: 50%; 
+}
+
+.circlee .glyphicon {
+    right: 2%;
+    margin-top: 23%;
+
+    }
+
+.whitediv:hover .circlee {
+    display: block;
+    background-color: white;
+    opacity:;
+    position: absolute;
+    width:27%;
+    height:19%;        
+    transition: all 0.3s ease-in-out;
+}
+
+.whitediv .circlee .glyphicon:hover {
+    color:red;
+    transition: all 0.1s ease-in-out;
+}
+
+.whitediv .circlee .glyphicon-shopping-cart:hover {
+    color:#67a983;
+    transition: all 0.1s ease-in-out;
+}
+
+/*==============Div & IMG End===============*/  
+
+.circlee {
+    height:5px;
+} 
+
+      
+.footerdiv :hover {
+    display: block;
+    
+}
+
+.footerdiv ul {
+    list-style: none;
+    color:#5d5d5d;
+    font-size: 15px;
+    font-family:  "Crimson Text",serif;
+    margin-bottom: 30px; 
+    margin-top:0px;
+
+}
+
+.fotheading {
+    font-family: calibri;  
+    color:black;
+    font-size: 21px;
+    color: black;
+    padding-bottom: 3px;
+}
+
+/*------------------Dropdown menu styles--------------------------*/
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	background-color:white;
+	/*box-shadow: 0px 0px 9px #ebebeb;*/
+	/*border-radius: 5%;*/
+	color:black;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>.open>a
+{
+background-color: #ff6600;
+	color:#e7aa35;
+
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus
+{
+	background-color:#ff6600;
+	color:white;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus
+{
+background-color:#ff6600;
+	color:white;
+
+}
+
+
+
+
+
+
+/*---------------------Dropdown menu styles-----------------------*/
+
+/*----------------------PiCture Informations----------------------*/
+.topic1 {
+    font-size: 16px; 
+    font-family: sans-serif; 
+    list-style:none; 
+    padding-left: 70px;
+    margin-top: px;
+    }
+
+.topic2 {
+  font-size: 15px; 
+    font-family: calibri; 
+    list-style:none; 
+    margin-top:1px; 
+    padding-left: 26px;
+    color:#727272;
+  }
+
+.topic3 {
+    color:#39c; 
+    font-size: 17px; 
+    font-family: calibri; 
+    list-style:none; 
+    padding-left: 26px; 
+    padding-bottom: 20px;
+    padding-top: 1px;
+  } 
+
+/*-----------------Pagenation Start-------------------*/
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}  
+
+
+
+/*-----------------------Social Media-------------------------*/
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-social-icons {
+    
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 30px;
+    margin-left: -34px
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+    padding-right: 2px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+/*---------------------Button style start-----------------------*/
+.fa-facebook {
+    padding:10px 17px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 8px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+/*---------------------Button style end-----------------------*/
+
+/*-----------------------My style-------------------------*/
+/*-----------------------My style-------------------------*/
+/*-----------------------My style-------------------------*/
+/*-----------------------My style-------------------------*/
+/*-----------------------My style-------------------------*/
+
+
+
+
+/*responsiveness of logo break point*/
+@media(max-width: 1169px){
+
+	.img-responsive
+	{
+		max-width: 200px;
+		min-width: 200px;
+	}
+}
+
+@media(max-width: 1400px){
+
+	.img-responsive
+	{
+		max-width: 200px;
+		min-width: 200px;
+	}
+}
+
+@media(max-width: 1440px){
+
+	.img-responsive
+	{
+		max-width: 200px;
+		min-width: 200px;
+	}
+}
+
+
+
+
+
+
+
+.navbar-default {
+  border: none;
+}
+
+
+/*logo*/
+/*.img-responsive{
+	
+	
+z-index: 100;
+margin-bottom:-150px;}
+*/
+
+/*Navigation menu*/
+
+
+
+.navbgcolor{
+
+
+	z-index: 999;
+
+/*	background-color: #ffffff;
+-moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+box-shadow:5px 5px 5px rgba(0,0,0,0.3);*/
+}
+
+
+
+/*Navigation menu text*/
+
+.navbar-default .navbar-nav>li>a{
+	color:#616161;
+	font-weight:bold;
+
+
+}
+
+.contact{
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-right:5px;
+	position:relative;
+margin-bottom:-1px;
+	text-align:right;
+	color:white;
+	background-image:url("../images/contactbg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+
+}
+
+
+
+
+
+
+
+.navbar-form .form-control {
+    display: inline-block;
+    width: 170px;
+    vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+.btn-warning
+{
+	background-color:#ff6600;
+}
+
+/*mid section*/
+
+
+
+
+.typewriter h1 {
+
+
+	/*padding-top: 100px;*/
+font-family: "Crimson Text",serif;
+font-style:italic;
+color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .11em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),   /*cursor end point*/
+    blink-caret .75s step-end infinite;
+text-align: center;
+
+}
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+
+/*midsection bg*/
+
+
+
+/*mid section button*/
+
+
+
+
+@media(max-width: 700px){
+.headbox{
+	font-size:20px;
+}
+}
+
+
+@media(max-width: 374px){
+.headbox{
+	font-size:18px;
+}
+}
+
+.btn-primary-outline:hover{
+	background-color: white;
+	text-shadow:none;
+	transition:background-color 0.8s ease
+}
+
+.typing{
+
+ font-size:40px; 
+
+}
+
+.shadow{
+
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+@media(max-width: 1100px){
+
+.shadow
+	{
+		font-size: 31px;
+	
+	}
+}
+@media(max-width: 900px){
+
+.shadow
+	{
+		font-size: 25px;
+	
+	}
+}
+
+@media(max-width: 700px){
+
+.shadow
+	{
+		font-size: 19px;
+	
+	}
+}
+
+@media(max-width: 500px){
+
+.shadow
+	{
+		font-size: 17px;
+	
+	}
+}
+@media(max-width: 450px){
+
+.shadow
+	{
+		font-size:15px;
+	
+	}
+}
+
+@media(max-width: 400px){
+
+.shadow
+	{
+		font-size:0.87em;
+	
+	}
+}
+
+
+
+
+/*@media(max-width: 374px){
+	.welcome
+	{
+		font-size:50px;
+	}
+}
+
+@media(max-width: 419px){
+	.welcome
+	{
+		font-size:50px;
+	}
+}
+*/
+.subtitle{
+
+font-family: georgia; 
+font-style:italic; 
+font-size:30px; 
+text-align: center; 
+color:white;}
+
+@media(max-width: 374px){
+.subtitle{
+	font-size:12px;
+}
+
+}
+
+@media(max-width: 419px){
+.subtitle{
+	font-size:13px;
+}
+
+}
+
+@media(max-width: 500px){
+.subtitle{
+	font-size:15px;
+}
+
+}
+
+@media(max-width: 700px){
+.subtitle{
+	font-size:18px;
+}
+
+}
+
+@media(max-width: 900px){
+.subtitle{
+	font-size:20px;
+}
+
+}
+
+.collection li
+{
+
+	display: inline;
+}
+
+.collection{
+	width:100%;
+
+	margin-top: 25px;
+	
+}
+
+
+.collectionpic{
+
+background-color: white;
+background-attachment: fixed;
+
+	width:360px; height:212px;
+}
+
+
+
+
+
+footer{
+color:white;
+background-color:#ff6600;
+height:80px;}
+
+
+
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    width:196px;
+    height:210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+
+
+
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 50ms ease-in;
+    -webkit-transform: scale(0.5);
+    -ms-transition: all 50ms ease-in;
+    -ms-transform: scale(0.5);   
+    -moz-transition: all 50ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 50ms ease-in;
+    transform: scale(1.1);
+}
+
+
+.pictext{
+
+	font-weight:bold;
+	background-color:wheat;
+	width:360px;
+	text-align: center;
+}
+
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#FFF; /* change if the mask should have another color then white */
+  z-index:99999; /* makes sure it stays on top */
+}
+#status {
+  width:200px;
+  height:100px;
+  position:absolute;
+  left:50%; /* centers the loading animation horizontally one the screen */
+  top:50%; /* centers the loading animation vertically one the screen */
+  background-image:url("/images/frontend_images/loading/giphy.gif");
+  z-index:9999; /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:-10px 0 0 -36px; /* is width and height divided by two */
+}
